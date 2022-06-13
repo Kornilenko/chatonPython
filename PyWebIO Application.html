@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://192.168.0.104:8080/ -->
+<html lang=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>PyWebIO Application</title>
+    <meta name="description" content="">
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAwklEQVQ4T63TvU5CQRCG4WcwMfEuqOgNtQ2Nd4CxV2LHtVhJ0N7AHdjQUBtrrLwLA4ks2Rx+/Qucw3Y78807M7sz4ft5dq6mI7RQX7o/JCNzfdfetkNifRk6k9wLN9jYdxMkyZPQ1faZXYUwB/OCix8V/W4Y4zJDCsBAX7jdM7iQJY+udELu+cTrP2X/xU2+NMPAg3B3UPaVOOmFoQkapQC8Z8AUpyUBs6MAKrZQ+RErf2PlQTrKKK8gpZdpewgOXOcFTTxEjYwMoIkAAAAASUVORK5CYII=" id="favicon32">
+    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABmUlEQVRYR82XK0wDQRCGv21TUUUJGBwGDBggGCSGBIcAWnBAgsNAgkKhSMDgCA8HtEXgSDBIDC9DDRgcpoSiKo52yea49DiutMttsz27M/98N7s7OyNo9tujgxSTwDiCIaAXSH27l4AXJA/AFSUuWOajGWnR0ChLP3HWkWSAZEN716CM4JQKW6R5+sunPkCeJJJNBCtAosnAQTMHyS6CDWYoh2mEAxzTR4JzYOCfgYNuBRymmOc5uPAbIMswMS6BbkPBPZkiVSZIc+/X/Qng/vl1C4LXIBzG/JmoAag9hxuDaa+XwAIw6p2JGkCObQSrhtMeLifZYZY1tegCqKsW4zHCadfldqgyqK6oC3DGIZIFXZVI9oIjplkUqArXyatGkYkU1+dc5p0eQY4MghNTqlo6kjkFsI9gScvRlLHkQJDnFhgxpampc6cAikCXpqMp8zcF8AnETSlq6lTaAsD6Flg+hNavofVCZL0UW3+M2uI5VhBWGxIFYL0lUxBWm1KviFttyz0Iq4OJB2F1NPO/qdaG0+DD3qLx/AuMVJFhmC8dSgAAAABJRU5ErkJggg==" id="favicon16">
+    <link rel="stylesheet" href="./PyWebIO Application_files/markdown.min.css">
+    <link rel="stylesheet" href="./PyWebIO Application_files/codemirror.min.css">
+    <link rel="stylesheet" href="./PyWebIO Application_files/toastify.min.css">
+    <link rel="stylesheet" href="./PyWebIO Application_files/default.min.css">
+    <link rel="stylesheet" href="./PyWebIO Application_files/bootstrap-select.min.css">
+    <link rel="stylesheet" href="./PyWebIO Application_files/app.css">
+    
+    
+</head>
+<body class="webio-theme-default">
+<div class="pywebio">
+    <div class="container no-fix-height" id="output-container">
+        <div class="markdown-body" id="markdown-body">
+            <div class="text-center" id="pywebio-loading" style="position: fixed; top: 40%; left: 0px; right: 0px; display: none;">
+                <div class="spinner-grow text-info" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+
+            <div id="pywebio-scope-ROOT"><div style=""><h2 id="🧊--добро-пожаловать-в-онлайн-чат">🧊 ;) Добро пожаловать в онлайн чат!</h2>
+<p>Исходный код данного чата укладывается в 100 строк!</p></div><div style="">
+<div class="webio-scrollable scrollable-border" tabindex="0" style="min-height: 300px; max-height: 300px;">
+        <div class="pywebio-scope-y7VrKTKhfd">
+        <p style="">'📢Anatoliy' Присоединился к чату!</p><p style="">'Anatoliy': УРА!</p><p style="">'Anatoliy':  У Меня получилось</p><p style="">'Anatoliy': Кстати, всем ПРИВЕТ!</p><p style="">'📢': 'Толик' Присоединился к чату!</p><p style="">'Толик': Привет всем!</p><p style="">'Толик':  У Меня получилось</p><p style="">'Толик': Я написал программу на Питоне</p></div>
+</div>
+</div></div>
+        </div>
+        <div id="end-space" style="height: 211.781px;"></div>
+
+    </div>
+
+    <div id="input-container" class="fixed" style="height: 251.781px;">
+        <div id="input-cards" class="container"><div class="card" style="height: unset; width: unset;">
+                <h5 class="card-header">📢 Новое сообщение</h5>
+                <div class="card-body">
+                    <form>
+                        <div class="input-container"><div class="form-group">
+    
+     
+        <input type="text" id="msg-3578" aria-describedby="msg-3578_action_btn" class="form-control" name="msg" placeholder="Текст сообщения ..." auto_focus="true">
+        <datalist id="msg-3578-list">
+            
+        </datalist>
+        <div class="invalid-feedback"></div>
+        <div class="valid-feedback"></div>
+     
+    <small id="msg-3578_help" class="form-text text-muted"></small>
+</div><div class="form-group">
+     
+    <button type="submit" data-type="submit" aria-describedby="cmd_help" class="btn btn-primary" value="&quot;Отправить&quot;">Отправить</button>
+    <button type="button" data-type="cancel" aria-describedby="cmd_help" class="btn btn-primary" value="">Выйти из чата</button>
+    <div class="invalid-feedback"></div>  <!-- input 添加 is-invalid 类 -->
+    <div class="valid-feedback"></div> <!-- input 添加 is-valid 类 -->
+    <small id="cmd_help" class="form-text text-muted"></small>
+</div></div>
+                        <div class="ws-form-submit-btns" style="display: none;">
+                            <button type="submit" class="btn btn-primary">Отправить</button>
+                            <button type="reset" class="btn btn-warning">Сброс</button>
+                            
+                        </div>
+                    </form>
+                </div>
+            </div></div>
+    </div>
+</div>
+
+<script src="./PyWebIO Application_files/mustache.min.js.download"></script>  <!--template system-->
+<script src="./PyWebIO Application_files/codemirror.min.js.download"></script>  <!--code textarea editor-->
+<script src="./PyWebIO Application_files/addons.js.download"></script> <!--codemirror addons: matchbrackets, python mode, active line, auto refresh, mode/meta and loadmode -->
+<script src="./PyWebIO Application_files/prism.min.js.download"></script>  <!-- markdown code highlight -->
+<script src="./PyWebIO Application_files/FileSaver.min.js.download"></script>  <!-- saving files on the client-side -->
+<script src="./PyWebIO Application_files/jquery.min.js.download"></script>
+<script src="./PyWebIO Application_files/popper.min.js.download"></script>  <!-- tooltip engine -->
+<script src="./PyWebIO Application_files/bootstrap.min.js.download"></script>
+<script src="./PyWebIO Application_files/toastify.min.js.download"></script> <!-- toast -->
+<script src="./PyWebIO Application_files/bs-custom-file-input.min.js.download"></script> <!-- bootstrap custom file input-->
+<script src="./PyWebIO Application_files/purify.min.js.download"></script>  <!-- XSS sanitizer -->
+<script src="./PyWebIO Application_files/bootstrap-select.min.js.download"></script>
+<script>
+    if (window.navigator.userAgent.indexOf('MSIE ') !== -1 || window.navigator.userAgent.indexOf('Trident/') !== -1)
+        $('#output-container').html('<div class="alert alert-danger" role="alert"> Sorry, this website does not support IE browser. ☹ </div>');
+</script>
+<script src="./PyWebIO Application_files/pywebio.min.js.download"></script>
+
+
+<script src="./PyWebIO Application_files/require.min.js.download"></script> <!-- JS module loader -->
+
+<script>
+    if (window.WebIO === undefined) { // resource load failed
+        let url = new URL(window.location.href);
+        if (url.searchParams.get('_pywebio_cdn') === 'false') {
+            alert("Failed to load resource")
+        } else {
+            url.searchParams.set('_pywebio_cdn', 'false');
+            window.location.href = url.href;
+        }
+    }
+
+    require.config({
+        paths: {
+            'plotly': "https://cdn.plot.ly/plotly-latest.min",
+        },
+    });
+
+
+    $(function () {
+        // https://www.npmjs.com/package/bs-custom-file-input
+        bsCustomFileInput.init()
+    });
+
+    const urlparams = new URLSearchParams(window.location.search);
+    WebIO.startWebIOClient({
+        output_container_elem: $('#markdown-body'),
+        input_container_elem: $('#input-cards'),
+        backend_address: urlparams.get('pywebio_api') || '',
+        app_name: urlparams.get('app') || 'index',
+        protocol: "ws",
+        runtime_config: {
+            debug: urlparams.get('_pywebio_debug'),
+            outputAnimation: !urlparams.get('_pywebio_disable_animate'),
+            httpPullInterval: parseInt(urlparams.get('_pywebio_http_pull_interval') || 1000)
+        },
+    });
+</script>
+
+
+
+<footer class="footer">
+    Powered by <a href="https://www.pyweb.io/" target="_blank">PyWebIO</a>
+</footer>
+
+</body></html>
